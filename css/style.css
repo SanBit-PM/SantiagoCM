@@ -1,0 +1,267 @@
+*{
+	margin: 0;
+    padding: 0;
+	box-sizing: border-box;
+}
+html{
+    width: 100%;
+}
+body{
+    background-color: #ffffff;
+    font-size: 15px;
+}
+a{
+	text-decoration: none;
+}
+
+/*Menu Lateral*/
+
+.vertical-header {
+    position: fixed;
+    width: 20%;
+    left: 0;
+    z-index: 1111;
+    top: 0;
+    bottom: 0;
+    background: rgb(0, 0, 0)
+}
+.vertical-header li {
+    list-style: none;
+}
+.vertical-header ul {
+    padding: 0 15px;
+}
+.menu-left{
+	width: 100%;
+    height: 100%;
+    z-index: 10;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.primary-menu li:hover a,
+.primary-menu li:hover li:hover a,
+.primary-menu li:hover a {
+    color: rgba(255, 255, 255, 1);
+}
+.primary-menu li:hover a,
+.primary-menu li:hover li a,
+.btn,
+.vertical-header li a {
+    color: rgba(255, 255, 255, 0.7);
+}
+.primary-menu li:hover a {
+    color: rgba(255, 255, 255, 0.7) ;
+}
+.primary-menu li:hover a {
+    color: rgba(255, 255, 255, 1) ;
+}
+.primary-menu {
+    margin-top: 78px;
+}
+.primary-menu li {
+    padding: 15px 20px;
+    border-bottom: 1px dotted rgba(255, 255, 255, 0.15);
+    font-size: 14px;
+    line-height: 1 ;
+    margin: 0 ;
+    text-transform: capitalize;
+    white-space: nowrap;
+    font-family:gravity-italic;
+}
+.primary-menu li:first-child {
+    border-top: 1px dotted rgba(255, 255, 255, 0.15);
+}
+.margin-block {
+    min-height: 40px;
+}
+.logo {
+    padding: 60px 0 0;
+    text-align: center;
+}
+.menu-social{
+	font-size: 25px;
+}
+.incono{
+	padding-right: 10px;
+	padding-left: 35px;
+	float: left;
+}
+.inconos{
+	padding-right: 10px;
+	padding-left: 10px;
+	float: left;
+}
+
+/*Scroll*/
+
+body::-webkit-scrollbar {
+	width: 7px;
+}
+
+body::-webkit-scrollbar-thumb {
+	background: #323a376c;
+	border-radius: 10%;
+}
+
+/*body*/
+
+.container{
+    right: 0;
+    top: 0;
+    display: block;
+    width: 80%;
+    float: right;
+    position: fixed;
+    overflow-x: hidden;
+    z-index: 1111;
+    bottom: 0;
+}
+.section  {
+    padding: 90px 30px;
+    position: relative;
+    overflow: hidden;
+    display: block;
+    background-color: #ffffff;
+}
+/*Inicio*/
+
+.container-home{
+    width: 100%;
+    height: 650px;
+    background-color: #03506f;
+}
+
+.banner-img img{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+/*Carts*/
+
+.box-color{
+    background-color: #003D5B;
+    width: 100%;
+    height: 100px;
+}
+.cards{
+    width: 100%;
+    top: 0;
+    padding-top: -20px;
+    margin: -50px 0 50px 0;
+}
+.cards-text{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.service-box{
+    width: 200px;
+    margin: 0 30px 0 30px;
+}
+.service-box img{
+	margin: auto;
+	display: block;
+	height: 200px;
+	width: 200px;
+}
+.service-box h3{
+	align-items: center;
+	text-align: center;
+	font-family: gravity-italic;
+	font-size: 20px;
+	color: #000;
+}
+.service-box p{
+	align-items: center;
+	text-align: justify;
+	margin: 0 12px 0 12px;
+	font-family:gravity-book;
+	font-size: 14px;
+	color: #000;
+}
+/*Sobre mi*/
+ 
+.container-sobre-mi{
+    width: 100%;
+    margin: auto;
+}
+#sobre-mi{
+    max-width: 1180px;
+}
+.conten-text{
+    padding: 30px 0 20px 0;
+    width: 50%;
+}
+.conten-text p{
+    margin: 0 20px;
+}
+.container-sobre-mi h2{
+    margin: 0 0 25px;
+    padding: 0;
+    font-size: 45px;
+    font-weight: 600;
+    font-family: gravity-italic;
+    color: #000;
+}
+
+.container-sobre-mi h4{
+    padding: 0;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: gravity-italic;
+    color: #000;
+}
+
+.container-sobre-mi p{
+    padding: 0;
+    text-align: justify;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: gravity-book;
+    color: #000;
+}
+
+.container-sobre-mi li{
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: gravity-book;
+    color: #000;
+}
+.container-sobre-mi .row .fortalezas{
+    width: 100px;
+    margin: 0 15px 0 15px;
+    float: left;
+}
+.container-sobre-mi .row .habilidades{
+    width: 100px;
+    margin: 0 15px 0 15px;
+    float: left;
+}
+.container-sobre-mi .row .principios{
+    width: 100px;
+    margin: 0 15px 0 15px;
+    float: left;
+}
+.container-sobre-mi .perspective-image {
+    bottom: -94px;
+    padding: 0;
+    position: absolute;
+    z-index: 1;
+    right: -0px;
+    top: 0;
+}
+/*Distribucción y Espacios*/
+
+@media(max-width:768px) {
+	.vertical-header{
+		display: none;
+	}
+	#header {
+        position: relative;
+    }
+}

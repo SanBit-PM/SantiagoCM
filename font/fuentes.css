@@ -1,0 +1,15 @@
+@font-face{
+	font-family: gravity-book;
+	src:url(../font/gravity-book.otf);
+}
+/*gravity book es para textos*/
+@font-face{
+	font-family: gravity-italic;
+	src:url(../font/gravity-italic.otf);
+}
+/*gravity italic es para titulares*/
+@font-face{
+	font-family: gravity-bold;
+	src:url(../font/gravity-bold.otf);
+}
+/*gravity bold para resaltar textos*/
